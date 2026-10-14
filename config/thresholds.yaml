@@ -1,0 +1,28 @@
+ingestion:
+  min_text_length: 3
+  max_text_length: 5000
+  near_dup_threshold: 0.95
+  pii_redaction: true
+
+classification:
+  min_confidence_issue: 0.55
+  min_confidence_severity: 0.60
+  min_confidence_actionability: 0.60
+  review_queue_enabled: true
+
+detection:
+  window_days: 28
+  min_periods: 14
+  z_threshold: 3.0
+  min_count: 2
+  min_rate_increase: 1.5
+  use_robust_z: true
+  exposure_field: transactions_30d
+  proxy_allowed: true
+
+fusion:
+  time_window_hours: 72
+  similarity_threshold: 0.82
+
+brief:
+  top_n: 5

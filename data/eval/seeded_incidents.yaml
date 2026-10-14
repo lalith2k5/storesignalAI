@@ -1,0 +1,19 @@
+incidents:
+- id: INC-ALLERGEN-01
+  store_id: S007
+  category: allergen_risk
+  channel_hint: online_review
+  days_ago_start: 20
+  n_records: 9
+- id: INC-REFRIG-02
+  store_id: S014
+  category: refrigeration
+  channel_hint: staff_shift_note
+  days_ago_start: 16
+  n_records: 12
+- id: INC-HYGIENE-03
+  store_id: S018
+  category: hygiene
+  channel_hint: callcentre_transcript
+  days_ago_start: 12
+  n_records: 10

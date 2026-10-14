@@ -1,0 +1,17 @@
+policy_version: "1.0"
+rules:
+  - category: allergen_risk
+    route_to: Food Safety
+    sla_hours: 2
+  - category: hygiene
+    route_to: Food Safety
+    sla_hours: 4
+  - category: foreign_object
+    route_to: Food Safety
+    sla_hours: 2
+  - category: food_safety_other
+    route_to: Food Safety
+    sla_hours: 4
+  - category: staff_misconduct
+    route_to: HR
+    sla_hours: 4

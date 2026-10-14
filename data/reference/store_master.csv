@@ -1,0 +1,21 @@
+store_id,store_name,region,city,size_band,transactions_30d,visits_30d,opened_at
+S001,Store Koramangala,South,Bengaluru,L,45000,60000,2019-03-15
+S002,Store Indiranagar,South,Bengaluru,M,28000,38000,2020-06-01
+S003,Store Whitefield,South,Bengaluru,XL,62000,85000,2018-01-10
+S004,Store Jayanagar,South,Bengaluru,M,31000,42000,2019-08-22
+S005,Store Andheri,West,Mumbai,XL,70000,95000,2017-05-04
+S006,Store Bandra,West,Mumbai,L,48000,64000,2018-11-19
+S007,Store Powai,West,Mumbai,M,26000,35000,2021-02-14
+S008,Store Lower Parel,West,Mumbai,L,52000,69000,2019-07-07
+S009,Store Connaught Place,North,Delhi,XL,66000,88000,2016-09-12
+S010,Store Saket,North,Delhi,L,44000,59000,2018-04-25
+S011,Store Gurgaon Cyber Hub,North,Gurgaon,XL,58000,78000,2019-10-03
+S012,Store Noida Sector 18,North,Noida,M,29000,39000,2020-12-08
+S013,Store Park Street,East,Kolkata,L,41000,55000,2018-07-17
+S014,Store Salt Lake,East,Kolkata,M,25000,33000,2021-05-21
+S015,Store Banjara Hills,South,Hyderabad,L,47000,63000,2019-01-30
+S016,Store Hitech City,South,Hyderabad,XL,60000,81000,2017-11-11
+S017,Store Anna Nagar,South,Chennai,M,33000,44000,2020-03-19
+S018,Store T Nagar,South,Chennai,L,49000,66000,2018-06-06
+S019,Store Viman Nagar,West,Pune,M,27000,36000,2021-08-15
+S020,Store Koregaon Park,West,Pune,S,18000,24000,2022-04-02

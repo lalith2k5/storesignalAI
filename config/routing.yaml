@@ -1,0 +1,35 @@
+default_sla_hours: 48
+
+routes:
+  food_quality:
+    owner: Store Ops
+    first_action: Inspect kitchen and storage conditions
+    sla_hours: 24
+  refrigeration:
+    owner: Store Ops
+    first_action: Check refrigeration unit and log temperature
+    sla_hours: 12
+  stockout:
+    owner: Supply Chain
+    first_action: Verify inventory and raise replenishment request
+    sla_hours: 48
+  app_crash:
+    owner: Digital
+    first_action: Reproduce issue and log bug
+    sla_hours: 72
+  price_discrepancy:
+    owner: Merchandising
+    first_action: Verify price tag against system
+    sla_hours: 48
+  cleanliness:
+    owner: Store Ops
+    first_action: Schedule deep clean
+    sla_hours: 24
+  billing_error:
+    owner: Store Ops
+    first_action: Audit transaction log
+    sla_hours: 24
+  staff_behavior:
+    owner: HR
+    first_action: Interview shift supervisor
+    sla_hours: 48

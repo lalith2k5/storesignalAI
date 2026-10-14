@@ -1,0 +1,33 @@
+id,name,owner,severity_default,policy_escalate,keywords
+food_quality,Food quality,Store Ops,medium,false,taste stale cold raw undercooked burnt
+refrigeration,Refrigeration,Store Ops,high,false,fridge freezer cold warm milk thaw
+stockout,Stockout,Supply Chain,medium,false,out of stock unavailable sold out empty shelf
+app_crash,App crash,Digital,medium,false,app crash freeze bug error loading
+price_discrepancy,Price discrepancy,Merchandising,low,false,price tag wrong overcharged mrp
+cleanliness,Cleanliness,Store Ops,medium,false,dirty unclean messy floor toilet
+billing_error,Billing error,Store Ops,medium,false,bill invoice receipt payment charged
+staff_behavior,Staff behavior,HR,medium,false,rude behaviour behavior attitude unhelpful
+allergen_risk,Allergen risk,Food Safety,critical,true,allergen nuts peanut dairy gluten cross contamination
+hygiene,Hygiene,Food Safety,critical,true,hygiene unhygienic contaminated spoilt spoiled
+foreign_object,Foreign object,Food Safety,critical,true,hair plastic stone insect glass metal
+food_safety_other,Food safety other,Food Safety,critical,true,food poisoning sick illness vomit
+staff_misconduct,Staff misconduct,HR,critical,true,misconduct harassment abuse theft
+wait_time,Wait time,Store Ops,medium,false,wait queue slow delay long line
+order_accuracy,Order accuracy,Store Ops,medium,false,wrong order missing item incorrect
+packaging,Packaging,Store Ops,low,false,packaging leak spilled damaged box
+delivery,Delivery,Supply Chain,medium,false,delivery late missing courier
+menu_availability,Menu availability,Merchandising,medium,false,menu item removed unavailable
+portion_size,Portion size,Store Ops,low,false,small portion less quantity
+temperature_control,Temperature control,Store Ops,high,false,hot cold temperature served
+ambience,Ambience,Store Ops,low,false,noise music lighting seating ac
+seating,Seating,Store Ops,low,false,chair table seat crowded
+parking,Parking,Store Ops,low,false,parking space lot
+loyalty_program,Loyalty program,Digital,low,false,loyalty points reward membership
+app_ui,App UI,Digital,low,false,app ui ux interface navigation
+app_payment,App payment,Digital,high,false,payment failed transaction upi card
+order_cancellation,Order cancellation,Digital,medium,false,cancel cancelled refund
+refund_issue,Refund issue,Store Ops,high,false,refund not received pending
+staff_shortage,Staff shortage,HR,medium,false,understaffed short staff shortage
+equipment_failure,Equipment failure,Store Ops,high,false,machine broken equipment failure
+supplier_issue,Supplier issue,Supply Chain,medium,false,supplier vendor delivery quality
+other,Other,Store Ops,low,false,miscellaneous

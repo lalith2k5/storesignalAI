@@ -1,0 +1,13 @@
+{
+  "model_version": "baseline-tfidf-lr-v1",
+  "trained_at": "2026-10-14T17:05:15.440915+00:00",
+  "data_hash": "6841587b77024dc3",
+  "n_train": 32024,
+  "n_val": 4003,
+  "val_macro_f1_category_pseudo": 0.9354186530492666,
+  "thresholds_issue": 0.55,
+  "thresholds_severity": 0.6,
+  "thresholds_actionability": 0.6,
+  "label_source": "taxonomy_keyword_pseudo_labels",
+  "hidden_labels_used": false
+}

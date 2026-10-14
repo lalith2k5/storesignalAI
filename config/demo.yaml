@@ -1,0 +1,7 @@
+seed: 20261014
+anchor_date: "2026-10-14"
+featured_stores:
+  - S007
+  - S014
+  - S018
+reset_snapshot: data/processed/.snapshot

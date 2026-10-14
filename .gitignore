@@ -7,3 +7,8 @@ data/processed/
 reports/
 models/*.joblib
 .DS_Store
+
+# Real data (may contain PII, large files)
+data/real/
+data/raw_real/
+data/processed_real/
